@@ -50,26 +50,26 @@ col1, col2, col3, col4, col5, col6 = st.columns(6)
 
 with col1:
     if st.button("📝 DATA ENTRY "):
-        st.switch_page("pages/1_Data_Entry.py")
+        st.switch_page("1_Data_Entry.py")
 
 with col2:
     if st.button("🎂  BIRTHDAY  "):
-        st.switch_page("pages/2_Birthday.py")
+        st.switch_page("2_Birthday.py")
 
 with col3:
     if st.button("💍 ANNIVERSARY"):
-        st.switch_page("pages/3_Anniversary.py")
+        st.switch_page("3_Anniversary.py")
 
 with col4:
     if st.button("👴 SR CITIZENS"):
-        st.switch_page("pages/4_Senior_Citizens.py")
+        st.switch_page("4_Senior_Citizens.py")
 
 with col5:
     if st.button("✏ EDIT  DATA "):
-        st.switch_page("pages/5_Edit_Data.py")
+        st.switch_page("5_Edit_Data.py")
 with col6:
     if st.button("📮 MAILING LABELS"):
-        st.switch_page("pages/6_Mailing_Labels.py")
+        st.switch_page("6_Mailing_Labels.py")
 
 
 st.write("")
